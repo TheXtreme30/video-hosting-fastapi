@@ -8,6 +8,7 @@ fastapi = "*"
 uvicorn = "*"
 python-multipart = "*"
 ormar = {extras = ["sqlite"], version = "*"}
+fastapi-users = {extras = ["ormar"], version = "*"}
 
 [dev-packages]
 
