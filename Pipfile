@@ -9,6 +9,9 @@ uvicorn = "*"
 python-multipart = "*"
 ormar = {extras = ["sqlite"], version = "*"}
 fastapi-users = {extras = ["ormar"], version = "*"}
+aiofiles = "*"
+jinja2 = "*"
+google-api-python-client = "*"
 
 [dev-packages]
 
