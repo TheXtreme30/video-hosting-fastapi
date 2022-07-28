@@ -7,7 +7,7 @@ from google.auth.transport import requests
 from . import schemas, models
 
 
-GOOGLE_CLIENT_ID = "624596912501-dpuv3fga4pqr28qvmgevug8edibe9fe3.apps.googleusercontent.com"
+GOOGLE_CLIENT_ID = "461803388497-m9fcvr5t4cj2lsk0vpddcn6k0pmoph2o.apps.googleusercontent.com"
 
 
 async def create_user(user: schemas.UserCreate) -> models.User:
